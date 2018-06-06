@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @EnableAutoConfiguration
 class FirstController {
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public hello() {
         return "<h1>hello world</h1>"
     }
